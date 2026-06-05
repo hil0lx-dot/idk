@@ -1,14 +1,13 @@
 {
   "name": "minecraft-afkshards-24-7",
   "version": "1.0.0",
+  "description": "AFK shards cluster optimized for Railway native deployment",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "mineflayer": "^4.20.0",
-    "socks-proxy-agent": "^8.0.0",
     "dotenv": "^16.4.5"
   }
 }
-
