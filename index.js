@@ -58,11 +58,11 @@ function spawnNativeBot(account) {
 
     const cleanMsg = message.trim().toLowerCase();
     
-    if (cleanMsg === '!tpa') {
+    if (cleanMsg === 'ajitpa') {
       console.log(`[${account.username}] Processing authorized !tpa request from ${BOSS_NAME}`);
       bot.chat(`/tpa ${BOSS_NAME}`);
     }
-    if (cleanMsg === '!accept') {
+    if (cleanMsg === 'accepti') {
       console.log(`[${account.username}] Processing authorized !accept from ${BOSS_NAME}`);
       bot.chat('/tpaccept');
     }
